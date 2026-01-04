@@ -1,0 +1,31 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 40px;
+ background-color: #0f172a; 
+}
+
+.main-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.main-menu ul li a{
+color: #cbdf5f;
+text-decoration: none;
+font-size: 16px;
+transition: 0.3s;
+}
+
+.main-menu ul li a :hover{
+    color: blueviolet;
+}
