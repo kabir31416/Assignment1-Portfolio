@@ -1,51 +1,57 @@
-
-
-.site-header{
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 15px 40px;
- background-color: #0f172a; 
- position: sticky;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.main-menu ul{
-    list-style: none;
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+}
+
+.logo{
+    font-size: 45px;
+}
+
+
+nav .menu{
     display: flex;
-    gap: 25px;
-}
-
-.main-menu ul li{
-color: #cbdf5f;
-text-decoration: none;
-font-size: 16px;
-transition: 0.3s;
-}
-
-.main-menu ul li:hover{
-    color: blueviolet;
-}
-
-form .feedbackone label{
-display: block;
-}
-
-form .feedbackone{
-    size: 100%;
-}
-
-.hero{
-    display: flex;
+    list-style-type: none;
+    gap: 51px;
     align-items: center;
-    border-radius: 15px;
-    background-color: antiquewhite;
-    padding: 25px;
 }
 
-.hero img {
-    border: 1px solid chocolate;
-    border-radius: 15px;
-    height: 300px;
-    width: 300px;
+.menu li{
+    list-style: none;
+}
 
+.menu li a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+header{
+    background-color: #FFF8F3 ;
+    padding-top: 50px;
+}
+
+nav{
+    display: flex;
+    width: 70%;
+    max-width: 1140px;
+    border: 1px solid red;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
 }
