@@ -17,6 +17,7 @@
     color: white;
     background-color: #FD6E0A;
     padding: 18px 35px;
+    cursor: pointer;
 }
 
 .logo{
@@ -43,6 +44,9 @@ nav .menu{
 
 header{
     background-color: #FFF8F3 ;
+    background: url(/images/developer.png), url(/images/header_bg.png), #FFF8F3; 
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -50,8 +54,45 @@ nav{
     display: flex;
     width: 70%;
     max-width: 1140px;
-    border: 1px solid red;
     margin: 0px auto;
     justify-content: space-between;
     align-items: center;
+}
+
+#banner{
+    display: flex;
+    margin: 0px 38px 0px 210px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    max-width: 585px;
+
+}
+
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.banner-img img{
+    max-width: 585px;
+    vertical-align: middle;
 }
