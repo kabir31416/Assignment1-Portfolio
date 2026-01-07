@@ -248,3 +248,52 @@ nav{
     font-weight: 700;
     color: #474747;
 }
+
+.footer{
+background-color: #FFF8F3;
+margin-top: 113px;
+padding: 130px 0px;
+}
+
+.foter-container{
+    display: flex;
+    margin: 0px auto;
+    max-width: 1140px;
+    width: 71%;
+    gap: 117px;
+    
+}
+
+.footer-form form input[type="text"]{
+    width: 461px;
+    padding: 18px 30px ;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-form form input[type="email"], .footer-form form textarea{
+    width: 461px;
+    padding: 18px 30px ;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-info h4, .footer-form h4{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 25px;
+}
+
+.footer-icon img{
+    margin-right: 24px;
+}
+
+.footer-info p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
